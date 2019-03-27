@@ -64,3 +64,216 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+	margin: auto;
+	width: 950px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-top: 40px;
+}
+
+.firstlink {
+	padding-left: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 1s;
+}
+
+
+header {
+	text-align: center;
+	margin: auto;
+	width: 950px;
+	border-bottom: solid black 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.titlebutton {
+	display: flex;
+	width: 400px;
+	height: 275px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+button {
+	color: black;
+	font-size: 20px;
+	vertical-align: top;
+	background: white;
+	padding: 1px 30px;
+	font-family: 'Titillium Web', sans-serif;
+	border: solid black 1px;
+}
+
+.headerimg {
+	margin: 50px;
+}
+
+.top-content {
+	margin: auto;
+	width: 950px;
+	display: flex;
+}
+
+.features {
+	width: 450px; 
+}
+
+.about {
+	width: 450px;
+	margin-left: 45px;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 950px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.bottom-content {
+	margin: auto;
+	width: 950px;
+	margin-top: 50px;
+	display: flex;
+	border-bottom: solid black 1px;
+	padding-bottom: 50px;
+}
+
+.services  {
+	width: 275px; 
+	margin-right: 50px;
+}
+
+.product {
+	width: 275px; 
+	margin-right: 50px;
+}
+
+.vision {
+	width: 275px; 
+}
+
+.address {
+	text-align: left;
+	margin: auto;
+	width: 950px;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+footer {
+	margin-top: 60px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+button:hover {
+	background: lightgreen;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: lightgreen;
+	transition: 0.5s;
+	font-size: 1.5em;
+}
+
+/* SERVICES PAGE CSS */
+
+.services-header-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 950px;
+}
+
+.aboutservices {
+	display: flex;
+	margin: auto;
+	width: 950px;
+	align-content: left;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: solid black 1px;
+}
+
+.linkblocks {
+	display: flex;
+	width: 950px;
+	height: 900px;
+	margin: auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: solid black 1px;
+}
+
+.blocktype {
+	width: 450px;
+	height: 250px;
+	border: solid black 1px;
+	padding: 20px;
+	background: #ffeae2;
+}
+
+.learnmore {
+	font-size: 15px;
+	margin-top: 25px;
+	padding: 5px 40px;
+	border-radius: 5px;
+	box-shadow: 1px 2px;
+}
+
+/* line spacing for all sections */
+
+section {
+	line-height: 20px;
+}
+
+/* end line spacing */
+
+.bottomfacts {
+	display: flex;
+	width: 950px;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.servicefacts {
+	width: 450px;
+}
+
+.services-info-img {
+	width: 450px;
+}
+
+li {
+	list-style-type: square;
+    list-style-position: inside;
+    line-height: 2;
+}
